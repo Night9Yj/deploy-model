@@ -1,0 +1,27 @@
+<html>
+	<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <title>Penang Rainfall Prediction Result</title>
+	</head>
+	<body>
+		<!-- Navbar-->
+		<nav class="navbar navbar-dark bg-dark">
+			<span class="navbar-brand mb-0 h1">Penang Rainfall Prediction Result</span>
+		</nav>
+		<div class="container">
+            <!--Prediction Result-->
+			<div id ="result">
+                <strong style="color:navy">{{result}}</strong>
+            </div>
+            
+            <br>
+            <div class="form-group">
+                <input class="btn btn-primary" onclick="window.location.href='/'" value="Predict Again">
+            </div>	
+		</div>
+		
+	</body>
+</html>
