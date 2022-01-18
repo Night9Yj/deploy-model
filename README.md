@@ -10,3 +10,6 @@ To run the development server:
 ```
 python app.py
 ```
+
+To view the web application hosted in Heroku:
+https://penang-rainfall-prediction.herokuapp.com/
