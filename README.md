@@ -1,5 +1,5 @@
-# Deploy Penang Rainfall Prediction Model
-This is a web application that deploy a gradient booster model for Penang rainfall prediction.
+# Penang Rainfall Prediction
+This is a web application that deployed a gradient booster model for Penang rainfall prediction.
 
 To install the dependencies:
 ```
